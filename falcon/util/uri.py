@@ -30,7 +30,7 @@ _HEX_DIGITS = '0123456789ABCDEFabcdef'
 
 # NOTE(kgriffs): Match query string fields that have names that
 # start with a letter.
-_QS_PATTERN = re.compile(r'(?<![0-9])([a-zA-Z][a-zA-Z_0-9\-.]*)=([^&]+)')
+_QS_PATTERN = re.compile(r'(?<![0-9])([a-zA-Z][a-zA-Z_0-9\-.]*)=([^&]*)')
 
 
 def _create_char_encoder(allowed_chars):
